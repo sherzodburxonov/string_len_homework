@@ -9,4 +9,7 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    return
+    return str(int(num1)+int(num2))
+num1=input()
+num2=input()
+print(main(num1,num2))
