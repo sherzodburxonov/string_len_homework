@@ -8,4 +8,11 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    x=len(s)
+    index=x//2
+    if x%2==0:
+        f=s[index]
+    else :
+        f=s[index-1: index+1]
+    return f
+print(main("abcfd"))

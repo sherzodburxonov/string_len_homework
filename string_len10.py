@@ -8,4 +8,7 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+
+    x1=int(s)//100
+    return x1
+print(main("aba"))
