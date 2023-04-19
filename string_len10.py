@@ -8,7 +8,5 @@ def main(s):
     Returns:
         bool: answer
     """
-
-    x1=int(s)//100
-    return x1
-print(main("aba"))
+    return  s[0]==s[-1]
+print(main("aaa"))
